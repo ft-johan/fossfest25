@@ -11,6 +11,7 @@ import {
   MobileNavMenu,
 } from "@/components/ui/resizable-navbar";
 import { useState } from "react";
+import Prism from "./ui/Prism";
  
 export function Hero() {
   const navItems = [
@@ -31,8 +32,22 @@ export function Hero() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
  
   return (
-    <div className="relative w-full h-[100svh]">
-  <Navbar className="absolute top-0 left-0 w-full z-10 pt-2">
+    <div className="relative w-full h-[100svh] overflow-hidden">
+      {/* Prism Background */}
+      <div className="fixed inset-0 w-full h-auto -z-10">
+        <Prism
+          animationType="hover"
+          timeScale={0.5}
+          height={2.5}
+          baseWidth={4.2}
+          scale={2.5}
+          hueShift={0}
+          colorFrequency={1}
+          noise={0}
+          glow={1}
+        />
+      </div>
+      <Navbar className="absolute top-0 left-0 w-full z-10 pt-2">
         {/* Desktop Navigation */}
         <NavBody>
           <NavbarLogo />

@@ -1,4 +1,5 @@
 import About from "@/components/about";
+import Footer from "@/components/footer";
 import { Hero } from "@/components/Hero";
 import Info from "@/components/info";
 import SponsorshipHome from "@/components/Sponsorshiphome";
@@ -10,6 +11,7 @@ export default function Home() {
       <Info />
       <SponsorshipHome />
       <About />
+      <Footer />
     </div>
   );
 }

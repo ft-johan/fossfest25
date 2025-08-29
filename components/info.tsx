@@ -3,7 +3,7 @@ import { IconMicrophone, IconCode, IconMap, IconMusic } from "@tabler/icons-reac
 export default function Info() {
 	return (
 		<section className="w-full max-w-4xl mx-auto my-12 p-6 rounded-xl  bg-transparent text-white">
-			<h2 className="text-3xl text-center md:text-5xl font-bold text-green-400 mb-2">FOSS FEST '25: The Vibe</h2>
+			<h2 className="text-3xl text-center md:text-5xl font-bold text-green-400 mb-2">FOSS FEST 25: The Vibe</h2>
 			<p className="text-lg md:text-xl text-center text-neutral-200 mb-8">Get ready for an unforgettable fusion of tech, creativity, and community!</p>
 			<div className="flex flex-col md:flex-row gap-6 justify-center mb-10">
 				<div className="flex flex-col items-center bg-[#182233] rounded-lg px-8 py-6">

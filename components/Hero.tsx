@@ -33,8 +33,8 @@ export function Hero() {
  
   return (
     <div className="relative w-full h-[100svh] overflow-hidden">
-      {/* Prism Background */}
-      <div className="fixed inset-0 w-full h-auto -z-10">
+      {/* Prism Background only for hero section */}
+      <div className="absolute inset-0 w-full h-full -z-10 pointer-events-none">
         <Prism
           animationType="hover"
           timeScale={0.5}
@@ -47,7 +47,7 @@ export function Hero() {
           glow={1}
         />
       </div>
-      <Navbar className="absolute top-0 left-0 w-full z-10 pt-2">
+      <Navbar className="absolute top-10 left-0 w-full z-10 pt-2">
         {/* Desktop Navigation */}
         <NavBody>
           <NavbarLogo />

@@ -19,7 +19,7 @@ export default function Home() {
     });
   });
   return (
-    <div id="smooth-content" >
+    <div id="smooth-content" className="bg-jwhite" >
 
       <Hero />
       <Info />

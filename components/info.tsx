@@ -17,7 +17,7 @@ export default function Info() {
 						className="text-jblue text-3xl font-bold font-jfont mb-1"
 					/>
 
-					<span className="text-white text-base">Student Participants</span>
+					<span className="text-white font-jfont text-base">Student Participants</span>
 				</div>
 				<div className="flex flex-col items-center bg-joranage rounded-lg px-8 py-6">
 					<CountUp
@@ -34,22 +34,22 @@ export default function Info() {
 			<div className="grid grid-cols-1 md:grid-cols-4 gap-6">
 				<div className="bg-joranage rounded-lg p-6 flex flex-col items-center">
 					<IconMicrophone className="text-jblue mb-3" size={36} />
-					<h4 className="font-bold mb-2">Expert Talks</h4>
+					<h4 className="font-bold font-jfont mb-2">Expert Talks</h4>
 					<p className="text-sm text-white">Hear from industry pros & open-source pioneers.</p>
 				</div>
 				<div className="bg-joranage rounded-lg p-6 flex flex-col items-center justify-center">
 					<IconCode className="text-jblue mb-3" size={36} />
-					<h4 className="font-bold text-center mb-2">Skill-Up Workshops</h4>
+					<h4 className="font-bold font-jfont text-center mb-2">Skill-Up Workshops</h4>
 					<p className="text-sm text-white">Get hands-on and learn practical skills.</p>
 				</div>
 				<div className="bg-joranage rounded-lg p-6 flex flex-col items-center">
 					<IconMap className="text-jblue mb-3" size={36} />
-					<h4 className="font-bold mb-2">OS Treasure Hunt</h4>
+					<h4 className="font-bold font-jfont mb-2">OS Treasure Hunt</h4>
 					<p className="text-sm text-white">Embark on a thrilling, clue-cracking adventure.</p>
 				</div>
 				<div className="bg-joranage rounded-lg p-6 flex flex-col items-center">
 					<IconMusic className="text-jblue mb-3" size={36} />
-					<h4 className="font-bold mb-2">Live Music & Beats</h4>
+					<h4 className="font-bold font-jfont mb-2">Live Music & Beats</h4>
 					<p className="text-sm text-white">Unwind and connect with amazing performances.</p>
 				</div>
 			</div>

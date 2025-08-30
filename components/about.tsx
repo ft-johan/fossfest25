@@ -8,11 +8,11 @@ export default function About() {
       </p>
       <div className="flex flex-col md:flex-row gap-8 mt-8 items-center justify-center">
         <div className="bg-white dark:bg-neutral-900 rounded-lg shadow p-6 w-full md:w-1/3">
-          <h3 className="text-xl font-semibold mb-2">Our Vision</h3>
+          <h3 className="text-xl font-semibold font-jfont mb-2">Our Vision</h3>
           <p className="text-base text-neutral-600 dark:text-neutral-400">Empowering individuals through open technology and collaborative learning.</p>
         </div>
         <div className="bg-white dark:bg-neutral-900 rounded-lg shadow p-6 w-full md:w-1/3">
-          <h3 className="text-xl font-semibold mb-2">Our Values</h3>
+          <h3 className="text-xl font-semibold font-jfont mb-2">Our Values</h3>
           <p className="text-base text-neutral-600 dark:text-neutral-400">Inclusivity, transparency, and a passion for sharing knowledge.</p>
         </div>
       </div>

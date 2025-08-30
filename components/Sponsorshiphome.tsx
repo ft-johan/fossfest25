@@ -21,7 +21,7 @@ export default function SponsorshipHome() {
 
 							{/* Sponsorship Tiers Section */}
 							<div className="w-full max-w-5xl mx-auto mb-16">
-								<h3 className="text-xl md:text-2xl font-semibold mb-6 text-left">Sponsorship Tiers</h3>
+								<h3 className="text-xl md:text-2xl font-semibold mb-6 text-jblue font-jfont text-left">Sponsorship Tiers</h3>
 								<div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full">
 									<div className="bg-yellow-100 dark:bg-yellow-900 rounded-lg shadow p-4 flex flex-col items-center justify-center min-h-[180px]">
 										<h4 className="text-lg md:text-xl font-bold mb-1 text-yellow-900 dark:text-yellow-100">Platinum</h4>
@@ -69,7 +69,7 @@ export default function SponsorshipHome() {
 			<div className="w-full max-w-4xl mx-auto mb-12">
 				<h3 className="text-2xl font-semibold text-jblue font-jfont mb-4">Past Success</h3>
 				<p className="text-lg text-jblue  mb-4">Last year&#39;s FOSS Fest 2023 successfully brought together students and professionals to promote the awareness and adoption of FOSS technologies. With 62 participants and a focus on  Git, Flutter and web development, our inaugural event was a great success.</p>
-				<h4 className="text-xl font-semibold mb-2">Past Supporters</h4>
+				<h4 className="text-xl text-jblue font-jfont font-semibold mb-2">Past Supporters</h4>
 				<div className="flex flex-row gap-8 items-center justify-center mb-4">
 					<div className="bg-white rounded p-4 flex items-center justify-center">
 						<img src="/fossunited.svg" alt="FOSS United Logo" className="w-24 h-24 object-contain" />

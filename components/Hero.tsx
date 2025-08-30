@@ -22,9 +22,9 @@ export function Hero() {
         {/* Hero Content */}
   <div  className="flex flex-col items-center justify-center h-full -m-10 px-4 text-center z-30 relative">
           <h1 data-speed="1.5" className="text-6xl md:text-9xl  font-jfont text-jblue font-bold mb-0.5 -mt-10">FOSS FEST 25</h1>
-          <p data-speed="1.2" className="text-lg md:text-2xl text-white mb-6">27th September 2025 . Krunagappally</p>
+          <p data-speed="1.2" className="text-lg md:text-2xl text-white mb-6">27th September 2025 . Karunagappally</p>
 
-          <button data-speed="1.2" className="px-6 py-2 rounded bg-jwhite text-white  dark:text-black font-medium text-base md:text-lg transition hover:scale-105">Get Started</button>
+          <button data-speed="1.2" className="px-6 py-2 rounded bg-jwhite text-white  dark:text-black font-medium text-base md:text-lg transition hover:scale-105">Coming Soon.....</button>
         </div>
     </div>
   );

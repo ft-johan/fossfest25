@@ -30,24 +30,14 @@ export function Hero() {
   ];
  
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
- 
+
   return (
-    <div className="relative w-full h-[100svh] overflow-hidden">
+    <div className="relative w-full h-[100svh] overflow-hidden bg-jwhite ">
+      {/* Blurred Circle Background */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-joranage z-20"></div>
       {/* Prism Background only for hero section */}
-      <div className="absolute inset-0 w-full h-full -z-10 pointer-events-none">
-        <Prism
-          animationType="hover"
-          timeScale={0.5}
-          height={2.5}
-          baseWidth={4.2}
-          scale={2.5}
-          hueShift={0}
-          colorFrequency={1}
-          noise={0}
-          glow={1}
-        />
-      </div>
-      <Navbar className="absolute top-10 left-0 w-full z-10 pt-2">
+   
+      <Navbar className="absolute top-0 left-0 w-full z-10 pt-2">
         {/* Desktop Navigation */}
         <NavBody>
           <NavbarLogo />
@@ -104,14 +94,13 @@ export function Hero() {
      
  
         {/* Hero Content */}
-  <div className="flex flex-col items-center justify-center h-full px-4 text-center">
-          <h1 className="text-4xl md:text-7xl  font-bold mb-4">Foss Fest 25</h1>
-          <p className="text-lg md:text-2xl text-neutral-600 dark:text-neutral-300 mb-6">Unlocking the Code: A Festival of Freedom</p>
-          <p className="text-lg md:text-2xl text-neutral-600 dark:text-neutral-300 mb-6">27th September 2025 . Krunagappally</p>
+  <div className="flex flex-col items-center justify-center h-full px-4 text-center z-30 relative">
+          <h1 className="text-4xl md:text-9xl  font-jfont text-jblue font-bold mb-4">FOSS FEST 25</h1>
+          <p className="text-lg md:text-2xl text-white mb-6">Unlocking the Code: A Festival of Freedom</p>
+          <p className="text-lg md:text-2xl text-white mb-6">27th September 2025 . Krunagappally</p>
 
           <button className="px-6 py-2 rounded bg-black text-white dark:bg-white dark:text-black font-medium text-base md:text-lg transition hover:scale-105">Get Started</button>
         </div>
     </div>
   );
 }
- 

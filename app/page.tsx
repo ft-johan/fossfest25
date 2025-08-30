@@ -7,8 +7,8 @@ import { SmoothCursor } from "@/components/ui/smooth-cursor";
 
 export default function Home() {
   return (
-    <div className=" cursor-none" >
-      <SmoothCursor />
+    <div >
+
       <Hero />
       <Info />
       <SponsorshipHome />

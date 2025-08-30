@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -10,6 +11,14 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-jfont: 'Asimovian', sans-serif;
+  --color-joranage: #E64624;
+  --color-jwhite: #FFF4E0;
+  --color-jred: #9A0500;
+  --color-jyellow: #FFAF58;
+  --color-jgrey: #373A3E;
+  --color-joranage: #E64624;
+  --color-jblue: #222A2A;
 }
 
 @media (prefers-color-scheme: dark) {

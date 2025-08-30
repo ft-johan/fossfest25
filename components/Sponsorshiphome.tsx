@@ -2,14 +2,14 @@
 export default function SponsorshipHome() {
 	return (
 		<section className="w-full min-h-[80vh] flex flex-col items-center justify-center px-2 py-12 text-center">
-			<h2 className="text-4xl md:text-6xl font-bold mb-6">Partner with FOSS Fest CEK &#39;25</h2>
-					<p className="max-w-3xl text-xl md:text-2xl text-neutral-700 dark:text-neutral-300 mb-10">
+			<h2 className="text-4xl md:text-6xl font-bold font-jfont text-jblue mb-6">Partner with FOSS Fest CEK &#39;25</h2>
+					<p className="max-w-3xl text-xl md:text-2xl text-jblue  mb-10">
 						Sponsoring FOSS Fest is more than just a donation—it&#39;s an investment in the next generation of innovators. By partnering with us, you&#39;ll gain direct access to a highly engaged audience of aspiring developers and tech leaders.
 					</p>
 							{/* Why Sponsor Section */}
 							<div className="w-full max-w-3xl mx-auto mb-12">
 								<div className="bg-white dark:bg-neutral-900 rounded-lg shadow p-6 flex flex-col justify-center items-start">
-									<h3 className="text-xl md:text-2xl font-semibold mb-4">Why Sponsor?</h3>
+									<h3 className="text-xl md:text-2xl font-semibold font-jfont mb-4">Why Sponsor?</h3>
 									<ul className="text-base md:text-lg text-neutral-600 dark:text-neutral-400 list-disc pl-5 text-left space-y-2">
 										<li><strong>Massive Visibility:</strong> Your brand gets highlighted across our website, social media, and on event banners and posters, ensuring maximum exposure to a highly engaged audience.</li>
 										<li><strong>Talent Access:</strong> Directly engage with passionate learners from engineering and computer science backgrounds, opening doors for recruitment, internships, and mentorships.</li>
@@ -67,8 +67,8 @@ export default function SponsorshipHome() {
 								</div>
 							</div>
 			<div className="w-full max-w-4xl mx-auto mb-12">
-				<h3 className="text-2xl font-semibold mb-4">Past Success</h3>
-				<p className="text-lg text-neutral-700 dark:text-neutral-300 mb-4">Last year&#39;s FOSS Fest 2023 successfully brought together students and professionals to promote the awareness and adoption of FOSS technologies. With 62 participants and a focus on  Git, Flutter and web development, our inaugural event was a great success.</p>
+				<h3 className="text-2xl font-semibold text-jblue font-jfont mb-4">Past Success</h3>
+				<p className="text-lg text-jblue  mb-4">Last year&#39;s FOSS Fest 2023 successfully brought together students and professionals to promote the awareness and adoption of FOSS technologies. With 62 participants and a focus on  Git, Flutter and web development, our inaugural event was a great success.</p>
 				<h4 className="text-xl font-semibold mb-2">Past Supporters</h4>
 				<div className="flex flex-row gap-8 items-center justify-center mb-4">
 					<div className="bg-white rounded p-4 flex items-center justify-center">
@@ -80,8 +80,8 @@ export default function SponsorshipHome() {
 				</div>
 			</div>
 			<div className="mt-8">
-				<p className="text-lg md:text-xl text-neutral-700 dark:text-neutral-300 mb-2">For more information, download our <span className="underline">Sponsorship Brochure</span> or contact us directly:</p>
-				<a href="mailto:fossceknpy@gmail.com" className="text-blue-600 dark:text-blue-400 underline text-lg font-medium">fossceknpy@gmail.com</a>
+				<p className="text-lg md:text-xl text-jblue  mb-2">For more information, download our <span className="underline">Sponsorship Brochure</span> or contact us directly:</p>
+				<a href="mailto:fossfestceknpy@gmail.com" className="text-blue-600 dark:text-blue-400 underline text-lg font-medium">fossfestceknpy@gmail.com</a>
 			</div>
 		</section>
 	);

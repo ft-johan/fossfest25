@@ -18,11 +18,11 @@ export default function Footer() {
 				</div>
 				<div className="flex flex-col items-center md:items-end">
 					<span className="font-semibold text-lg mb-2">Organisers</span>
-					<span className="mb-1">Johan T: <a href="tel:+919876543210" className="underline">+91 98765 43210</a></span>
-					<span className="mb-1">Aarav S: <a href="tel:+919812345678" className="underline">+91 98123 45678</a></span>
+					<span className="mb-1">Abhijith H: <a href="tel:+919876543210" className="underline">+91 77369 77391</a></span>
+					<span className="mb-1">Chinthak Divan: <a href="tel:+919812345678" className="underline">+91 77367 63162</a></span>
 				</div>
 			</div>
-			<div className="text-center text-neutral-400 text-sm mt-6">&copy; {new Date().getFullYear()} FOSS Fest CEK. All rights reserved.</div>
+			<div className="text-center text-neutral-400 text-sm mt-6">&copy; {new Date().getFullYear()} FOSS Club CEKNPY. All rights reserved.</div>
 		</footer>
 	);
 }

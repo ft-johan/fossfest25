@@ -54,7 +54,7 @@ export function Hero() {
           <NavItems items={navItems} />
           <div className="flex items-center gap-4">
             <NavbarButton variant="secondary">Login</NavbarButton>
-            <NavbarButton variant="primary">Book a call</NavbarButton>
+            <NavbarButton href="mailto:fossceknpy@gmail.com" variant="primary">Contact Us</NavbarButton>
           </div>
         </NavBody>
  

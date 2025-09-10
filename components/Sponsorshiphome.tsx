@@ -25,7 +25,7 @@ export default function SponsorshipHome() {
 								<div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full">
 									<div className="bg-yellow-100 dark:bg-yellow-900 rounded-lg shadow p-4 flex flex-col items-center justify-center min-h-[180px]">
 										<h4 className="text-lg md:text-xl font-bold mb-1 text-yellow-900 dark:text-yellow-100">Platinum</h4>
-										<span className="text-base font-semibold mb-1 text-yellow-900 dark:text-yellow-100">INR 30,000</span>
+										<span className="text-base font-semibold mb-1 text-yellow-900 dark:text-yellow-100">INR 50,000</span>
 										<ul className="text-sm md:text-base text-yellow-900 dark:text-yellow-100 list-disc pl-5 text-left">
 											<li>Logo on website & event signage</li>
 											<li>Blog post</li>
@@ -34,7 +34,7 @@ export default function SponsorshipHome() {
 									</div>
 									<div className="bg-gray-100 dark:bg-gray-800 rounded-lg shadow p-4 flex flex-col items-center justify-center min-h-[180px]">
 										<h4 className="text-lg md:text-xl font-bold mb-1 text-gray-900 dark:text-gray-100">Gold</h4>
-										<span className="text-base font-semibold mb-1 text-gray-900 dark:text-gray-100">INR 20,000</span>
+										<span className="text-base font-semibold mb-1 text-gray-900 dark:text-gray-100">INR 30,000</span>
 										<ul className="text-sm md:text-base text-gray-900 dark:text-gray-100 list-disc pl-5 text-left">
 											<li>Logo on website & signage</li>
 											<li>Social media branding</li>
@@ -43,7 +43,7 @@ export default function SponsorshipHome() {
 									</div>
 									<div className="bg-gray-50 dark:bg-gray-700 rounded-lg shadow p-4 flex flex-col items-center justify-center min-h-[180px]">
 										<h4 className="text-lg md:text-xl font-bold mb-1 text-gray-900 dark:text-gray-100">Silver</h4>
-										<span className="text-base font-semibold mb-1 text-gray-900 dark:text-gray-100">INR 10,000</span>
+										<span className="text-base font-semibold mb-1 text-gray-900 dark:text-gray-100">INR 20,000</span>
 										<ul className="text-sm md:text-base text-gray-900 dark:text-gray-100 list-disc pl-5 text-left">
 											<li>Logo & company description on website</li>
 											<li>Social media branding</li>
@@ -51,7 +51,7 @@ export default function SponsorshipHome() {
 									</div>
 									<div className="bg-orange-100 dark:bg-orange-900 rounded-lg shadow p-4 flex flex-col items-center justify-center min-h-[180px]">
 										<h4 className="text-lg md:text-xl font-bold mb-1 text-orange-900 dark:text-orange-100">Bronze</h4>
-										<span className="text-base font-semibold mb-1 text-orange-900 dark:text-orange-100">INR 5,000</span>
+										<span className="text-base font-semibold mb-1 text-orange-900 dark:text-orange-100">INR 10,000</span>
 										<ul className="text-sm md:text-base text-orange-900 dark:text-orange-100 list-disc pl-5 text-left">
 											<li>Logo & company description on website</li>
 											<li>Social media branding</li>
@@ -59,7 +59,7 @@ export default function SponsorshipHome() {
 									</div>
 									<div className="bg-blue-100 dark:bg-blue-900 rounded-lg shadow p-4 flex flex-col items-center justify-center min-h-[180px]">
 										<h4 className="text-lg md:text-xl font-bold mb-1 text-blue-900 dark:text-blue-100">Other Supports</h4>
-										<span className="text-base font-semibold mb-1 text-blue-900 dark:text-blue-100">Below INR 5,000</span>
+										<span className="text-base font-semibold mb-1 text-blue-900 dark:text-blue-100">Below INR 10,000</span>
 										<ul className="text-sm md:text-base text-blue-900 dark:text-blue-100 list-disc pl-5 text-left">
 											<li>Goodies, stickers, or registration kits</li>
 										</ul>

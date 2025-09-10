@@ -1,7 +1,7 @@
 
 export default function SponsorshipHome() {
 	return (
-		<section className="w-full min-h-[80vh] flex flex-col items-center justify-center px-2 py-12 text-center">
+		<section id="Sponsor" className="w-full min-h-[80vh] flex flex-col items-center justify-center px-2 py-12 text-center">
 			<h2 className="text-4xl md:text-6xl font-bold font-jfont text-jblue mb-6">Partner with FOSS Fest CEK &#39;25</h2>
 					<p className="max-w-3xl text-xl md:text-2xl text-jblue  mb-10">
 						Sponsoring FOSS Fest is more than just a donation—it&#39;s an investment in the next generation of innovators. By partnering with us, you&#39;ll gain direct access to a highly engaged audience of aspiring developers and tech leaders.

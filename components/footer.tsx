@@ -2,7 +2,7 @@ import { IconBrandInstagram, IconBrandLinkedin } from "@tabler/icons-react";
 
 export default function Footer() {
 	return (
-		<footer className="w-full bg-neutral-900 text-neutral-100 py-8 px-4 mt-12">
+		<footer id="footer" className="w-full bg-neutral-900 text-neutral-100 py-8 px-4 mt-12">
 			<div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
 				<div className="flex flex-col items-center md:items-start">
 					<span className="font-semibold text-lg mb-2">Contact Us</span>

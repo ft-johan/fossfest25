@@ -3,7 +3,7 @@ import CountUp from "./ui/count";
 
 export default function Info() {
 	return (
-		<section className="w-full max-w-4xl mx-auto my-12 p-6 rounded-xl  bg-jyellow text-white">
+		<section id="blocks" className="w-full max-w-4xl mx-auto my-12 p-6 rounded-xl  bg-jyellow text-white">
 			<h2 className="text-3xl text-center md:text-5xl font-bold font-jfont text-jblue mb-2">FOSS FEST 25: The Vibe</h2>
 			<p className="text-lg md:text-xl text-center text-neutral-200 mb-8">Get ready for an unforgettable fusion of tech, creativity, and community!</p>
 			<div className="flex flex-col md:flex-row gap-6 justify-center mb-10">

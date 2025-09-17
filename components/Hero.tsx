@@ -19,7 +19,7 @@ export function Hero() {
 
       {/* Hero Content */}
       <div className="flex flex-col items-center justify-center h-full -m-10 px-4 text-center z-30 relative">
-        <h1 data-speed="1.5" className="text-6xl md:text-9xl  font-jfont text-jblue font-bold mb-0.5 -mt-10">FOSS FEST 25</h1>
+        <h1 data-speed="1.3" className="text-6xl md:text-9xl  font-jfont text-jblue font-bold mb-0.5 -mt-10">FOSS FEST 25</h1>
         <button data-speed="1.2" className="px-6 py-2 rounded bg-jwhite text-white  dark:text-black font-medium text-base md:text-lg transition hover:scale-105">Coming Soon.....</button>
       </div>
 
@@ -32,7 +32,7 @@ export function Hero() {
       <div className="absolute bottom-10 left-72 z-20" style={{ pointerEvents: 'none' }}>
         <img data-lag="0.7" src="/dance.png" alt="Dance" className="h-auto" style={{ minHeight: '120px', maxHeight: '30vh' }} />
       </div>
-      <div className="absolute bottom-10 left-4 z-10" style={{ pointerEvents: 'none' }}>
+      <div className="absolute bottom-4 left-4 z-10" style={{ pointerEvents: 'none' }}>
         <img data-speen="0.7" src="/net.png" alt="Dance" className="h-auto" style={{ minHeight: '120px', maxHeight: '35vh' }} />
       </div>
     </div>

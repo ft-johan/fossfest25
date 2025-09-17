@@ -29,8 +29,11 @@ export function Hero() {
       </div>
 
       {/* dance.png in lower left corner */}
-      <div className="absolute bottom-20 left-4 z-20" style={{ pointerEvents: 'none' }}>
-        <img data-lag="0.7" src="/dance.png" alt="Dance" className="h-auto" style={{ minHeight: '120px', maxHeight: '40vh' }} />
+      <div className="absolute bottom-10 left-72 z-20" style={{ pointerEvents: 'none' }}>
+        <img data-lag="0.7" src="/dance.png" alt="Dance" className="h-auto" style={{ minHeight: '120px', maxHeight: '30vh' }} />
+      </div>
+      <div className="absolute bottom-10 left-4 z-10" style={{ pointerEvents: 'none' }}>
+        <img data-speen="0.7" src="/net.png" alt="Dance" className="h-auto" style={{ minHeight: '120px', maxHeight: '35vh' }} />
       </div>
     </div>
   );

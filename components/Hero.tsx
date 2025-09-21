@@ -12,9 +12,9 @@ export function Hero() {
 
   return (
     <div className="relative w-full h-[100svh] overflow-hidden bg-jwhite ">
-      <Navbar />
+      {/* <Navbar /> */}
       {/* Blurred Circle Background */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] md:w-[500px] md:h-[500px] lg:w-[600px] lg:h-[600px] rounded-full bg-joranage mt-5 z-20"></div>
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] md:w-[500px] md:h-[500px] lg:w-[600px] lg:h-[600px] rounded-full bg-joranage -mt-10 z-20"></div>
       {/* Prism Background only for hero section */}
 
       {/* Hero Content */}

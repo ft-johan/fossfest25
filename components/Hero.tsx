@@ -22,7 +22,7 @@ export function Hero() {
       <div className="flex flex-col items-center justify-center h-full -m-10 px-4 text-center z-30 relative">
 
         <h1 data-speed="1.2" className="text-6xl md:text-9xl  font-jfont text-jblue font-bold mb-0.5 mt-10"><TextAnimate animation="slideUp" by="character" delay={0.5} duration={1}>FOSS FEST 25</TextAnimate></h1>
-        <h1 data-speed="1.3" className="text-3xl md:text-3xl  font-jfont text-jblue font-bold mb-0.5 "><TextAnimate animation="slideUp" by="character" delay={0.5} duration={1}>October 11 ,12</TextAnimate></h1>
+        <h1 data-speed="1.3" className="text-3xl md:text-3xl  font-jfont text-jblue font-bold mb-0.5 "><TextAnimate animation="slideUp" by="word" delay={0.5} duration={1}>October 11 ,12 </TextAnimate></h1>
 
         <a href="https://konfhub.com/foss-fest-25"> <button data-speed="1.4" className="relative inline-flex h-12 md:h-14 lg:h-16 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 w-full max-w-xs md:max-w-sm lg:max-w-md mx-auto">
           <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />

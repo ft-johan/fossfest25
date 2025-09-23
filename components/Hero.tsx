@@ -5,6 +5,8 @@ import { gsap } from "gsap";
 import { ScrollSmoother } from "gsap/ScrollSmoother";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { TextAnimate } from "@/components/ui/text-animate";
+import { CrowdCanvas, Skiper39 } from "@/components/ui/skiper-ui/skiper39";
+
 import { Navbar } from "./nav";
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
@@ -30,8 +32,9 @@ export function Hero() {
             Register Now
           </span>
         </button></a>
+          <Skiper39 />
       </div>
-
+    
       {/* boat.png in lower right corner 
       <div className="absolute bottom-32 right-4 z-20" style={{ pointerEvents: 'none' }}>
         <img data-lag="0.2" src="/boat.png" alt="Boat" className="h-auto" style={{ minHeight: '120px', maxHeight: '40vh' }} />

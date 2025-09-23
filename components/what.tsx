@@ -18,7 +18,7 @@ export default function What() {
 what is Foss fest?
 </ScrollFloat>
             <p className="max-w-xl text-center text-lg md:text-xl text-black mx-auto">
-Whether you're a seasoned developer, a curious student, a UI/UX designer, or simply someone passionate about the power of open-source technology, FOSS Fest '25 is for you.
+Whether you &apos;re a seasoned developer, a curious student, a UI/UX designer, or simply someone passionate about the power of open-source technology, FOSS Fest &apos;25 is for you.
 
 Come to learn, stay to build. Join us for two unforgettable days of community, code, and creation!            </p>
            

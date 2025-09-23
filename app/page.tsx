@@ -27,7 +27,7 @@ export default function Home() {
       <What />
       <Info />
       <Schedule />
-      <SponsorshipHome />
+      
       <About />
       <Footer />
     </div>

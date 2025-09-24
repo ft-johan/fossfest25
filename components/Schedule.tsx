@@ -98,7 +98,7 @@ const scheduleData: DaySchedule[] = [
     },
     {
         day: "Day 2",
-        date: "December 3, 2025",
+        date: "October  12, 2025",
         events: [
             {
                 time: "09:00 AM",

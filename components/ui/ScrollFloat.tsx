@@ -20,7 +20,7 @@ const ScrollFloat: React.FC<ScrollFloatProps> = ({
   children,
   scrollContainerRef,
   containerClassName = '',
-  textClassName = 'text-jblue font-jfont font-bold text-center mb-6 text-xl md:text-5xl',
+  textClassName = 'text-jblue font-jfont font-bold text-center mb-6 text-xl md:text-6xl',
   animationDuration = 1,
   ease = 'back.inOut(2)',
   scrollStart = 'center bottom+=50%',

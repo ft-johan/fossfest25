@@ -11,15 +11,15 @@ export default function What() {
            <ScrollFloat
   animationDuration={1}
   ease='back.inOut(2)'
-  scrollStart='bottom bottom+=20%'
-  scrollEnd='bottom bottom-=100%'
+  scrollStart='center bottom+=50%'
+  scrollEnd='bottom bottom-=40%'
   stagger={0.03}
 
 >
-what is Foss fest?
+What is Foss fest?
 </ScrollFloat></div>
               <div className='md:hidden block '>
-            <p className='text-jblue font-jfont font-bold text-center mb-6 text-4xl md:text-5xl'>What is <span className='text-joranage'>Foss fest?</span></p>
+            <p className='text-jblue font-jfont font-bold text-center mb-6 text-4xl md:text-9xl'>What is <span className='text-joranage'>Foss fest?</span></p>
             </div>
             <p className="max-w-xl text-center text-lg md:text-xl text-black mx-auto">
 Whether you &apos;re a seasoned developer, a curious student, a UI/UX designer, or simply someone passionate about the power of open-source technology, FOSS Fest &apos;25 is for you.

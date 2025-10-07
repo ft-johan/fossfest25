@@ -36,7 +36,7 @@ const scheduleData: DaySchedule[] = [
             },
             {
                 time: "10:15 AM",
-                title: " How FOSS Tools and Communities Impacted my Life",
+                title: "Talk Sessions 1: How FOSS Tools and Communities Impacted my Life",
                 duration: "10 Min",
                 location: "ROOM 1",
                 speaker: "Varsha Shaheen",
@@ -44,15 +44,15 @@ const scheduleData: DaySchedule[] = [
             },
               {
                 time: "10:55 AM",
-                title: " Career transformation with AI oriented digital marketing",
+                title: "Talk Sessions 2: Career transformation with AI oriented digital marketing",
                 duration: "60 Min",
                 location: "ROOM 1",
-                speaker: "TBD",
+                speaker: "Akshay Krishnan U",
                 type: "talk"
             },
             {
                 time: "11:35 AM",
-                title: " Engineering For Social Impact",
+                title: "Talk Sessions 3: Engineering For Social Impact",
                 duration: "60 Min",
                 location: "ROOM 1",
                 speaker: "Abhiram NJ",
@@ -67,10 +67,10 @@ const scheduleData: DaySchedule[] = [
             },
             {
                 time: "12:10 PM",
-                title: "Engineering  better insights with Grafana Stack",
+                title: "Talk Sessions 2: Engineering  better insights with Grafana Stack",
                 duration: "60 Min",
                 location: "ROOM 1",
-                speaker: "TBD",
+                speaker: "Iqbal",
                 type: "talk"
             },
             {
@@ -86,10 +86,25 @@ const scheduleData: DaySchedule[] = [
                 title: "Zero to hero : Your First step in Javascript",
                 duration: "90 Min",
                 location: "Room 2",
-                speaker: "TBD",
+                speaker: "Jithu Girish",
                 type: "workshop"
             },
-        
+                   {
+                time: "1:00 PM",
+                title: "Game ON!: Build your first 2D game using Godot Engine",
+                duration: "90 Min",
+                location: "Room 1",
+                speaker: "Mohammed Fahad",
+                type: "workshop"
+            },
+            {
+                time: "01:00 PM",
+                title: "Open Source HUNT",
+                duration: "60 Min",
+                location: "College of Engineering Karunagapally",
+
+                type: "workshop"
+            },
             {
                 time: "03:30 PM",
                 title: "Networking session + Treasure Hunt ",
@@ -99,9 +114,9 @@ const scheduleData: DaySchedule[] = [
             },
             {
                 time: "05:00 PM",
-                title: "Ending Note & Music Jam Session",
+                title: "Ending Note & Music ",
                 duration: "45 Min",
-                location: "Network Space",
+                location: "EC Building",
                 type: "break"
             },
         ]

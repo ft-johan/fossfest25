@@ -51,10 +51,10 @@ const sponsorData: SponsorCategory[] = [
     subtitle: "Supporting the ecosystem",
     sponsors: [
       { name: "TinkerHub CEK", logo: "/tinkerhub.png", website: "https://blender.com" },
-      { name: "Libre Office", logo: "/libreoffice.png", website: "https://libreoffice.org" },
+    
     ],
     cardSize: 'small',
-    gridCols: 'grid-cols-2 md:grid-cols-2 lg:grid-cols-2'
+    gridCols: 'grid-cols-1 md:grid-cols-1 lg:grid-cols-1'
   }
 ];
 

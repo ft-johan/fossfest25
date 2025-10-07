@@ -30,68 +30,78 @@ const scheduleData: DaySchedule[] = [
                 type: "registration"
             },
             {
-                time: "10:00 AM",
+                time: "9:30 AM",
                 title: "Inaugural Session & Welcome Address",
                 type: "break"
             },
             {
-                time: "10:30 AM",
-                title: "Talk Sessions#1",
+                time: "10:15 AM",
+                title: " How FOSS Tools and Communities Impacted my Life",
+                duration: "10 Min",
+                location: "ROOM 1",
+                speaker: "Varsha Shaheen",
+                type: "talk"
+            },
+              {
+                time: "10:55 AM",
+                title: " Career transformation with AI oriented digital marketing",
                 duration: "60 Min",
-                location: "Workshop Room 1",
+                location: "ROOM 1",
                 speaker: "TBD",
                 type: "talk"
             },
             {
-                time: "11:30 AM",
-                title: "Tea Break",
+                time: "11:35 AM",
+                title: " Engineering For Social Impact",
+                duration: "60 Min",
+                location: "ROOM 1",
+                speaker: "Abhiram NJ",
+                type: "talk"
+            },
+            {
+                time: "11:55 AM",
+                title: "Networking Break",
                 duration: "15 Min",
                 location: "EC Building",
                 type: "break"
             },
             {
-                time: "11:45 PM",
-                title: "Talk Sessions#2",
+                time: "12:10 PM",
+                title: "Engineering  better insights with Grafana Stack",
                 duration: "60 Min",
-                location: "Workshop Room 1",
+                location: "ROOM 1",
                 speaker: "TBD",
                 type: "talk"
             },
             {
-                time: "12:45 PM",
+                time: "01:00 PM",
                 title: "Lunch Break",
-                duration: "15 Min",
+                duration: "60 Min",
                 location: "EC Building",
                 type: "break"
             },
+            
             {
-                time: "1:30 PM",
-                title: "Workshop Sessions#1",
+                time: "1:00 PM",
+                title: "Zero to hero : Your First step in Javascript",
                 duration: "90 Min",
-                location: "Workshop Room 2",
+                location: "Room 2",
                 speaker: "TBD",
                 type: "workshop"
             },
+        
             {
-                time: "03:00 PM",
-                title: "Open Source HUNT",
-                duration: "60 Min",
-                location: "College of Engineering Karunagapally",
-
-                type: "workshop"
-            },
-            {
-                time: "04:00 PM",
-                title: "Tea Break",
+                time: "03:30 PM",
+                title: "Networking session + Treasure Hunt ",
                 duration: "15 Min",
-                location: "EC Building",
+                location: "Network Space",
                 type: "break"
             },
             {
-                time: "04:15 PM",
-                title: "Open source music jam session",
+                time: "05:00 PM",
+                title: "Ending Note & Music Jam Session",
                 duration: "45 Min",
-                location: "EC Building",
+                location: "Network Space",
                 type: "break"
             },
         ]
@@ -122,15 +132,30 @@ const scheduleData: DaySchedule[] = [
 const getEventColor = (type?: string) => {
     switch (type) {
         case 'workshop':
-            return 'bg-pink-500';
+            return 'bg-pink-500 text-white';
         case 'talk':
-            return 'bg-blue-500';
+            return 'bg-blue-500 text-white';
         case 'break':
-            return 'bg-green-500';
+            return 'bg-green-500 text-white';
         case 'registration':
-            return 'bg-purple-500';
+            return 'bg-purple-500 text-white';
         default:
-            return 'bg-gray-500';
+            return 'bg-gray-500 text-white';
+    }
+};
+
+const getEventTypeLabel = (type?: string) => {
+    switch (type) {
+        case 'workshop':
+            return 'Workshop';
+        case 'talk':
+            return 'Talk';
+        case 'break':
+            return 'Break';
+        case 'registration':
+            return 'Registration';
+        default:
+            return 'Event';
     }
 };
 
@@ -228,9 +253,18 @@ export default function Schedule() {
 
                                     {/* Event Details */}
                                     <div className="flex-1">
-                                        <h4 className="text-lg font-semibold text-gray-900 mb-2">
-                                            {event.title}
-                                        </h4>
+                                        {/* Title and Badge */}
+                                        <div className="flex flex-col md:flex-row md:items-center gap-2 mb-2">
+                                           {event.type && (
+                                                <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${getEventColor(event.type)} flex-shrink-0`}>
+                                                    {getEventTypeLabel(event.type)}
+                                                </span>
+                                            )}
+                                            <h4 className="text-lg font-semibold text-gray-900">
+                                                {event.title}
+                                            </h4>
+                                            
+                                        </div>
 
                                         {event.location && (
                                             <div className="flex items-center gap-2 text-sm text-gray-600 mb-2">

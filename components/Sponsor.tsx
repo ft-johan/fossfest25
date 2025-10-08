@@ -145,20 +145,7 @@ const Sponsor = () => {
         ))}
 
         {/* Become a Sponsor Button */}
-        <div className="text-center mt-16">
-          <div className="relative inline-block">
-            {/* Button shadow/background */}
-            <div className="absolute inset-0 bg-yellow-400 rounded-lg transform rotate-2 translate-x-1 translate-y-1"></div>
-            
-            {/* Main button */}
-            <button className="relative bg-yellow-300 hover:bg-yellow-400 text-black font-bold py-4 px-8 rounded-lg border-2 border-black transform hover:-translate-x-1 hover:-translate-y-1 transition-all duration-300 hover:shadow-lg">
-              <span className="text-lg md:text-xl font-jfont">Become a sponsor</span>
-            </button>
-          </div>
-          <p className="text-gray-600 mt-4 text-sm">
-            Join our amazing partners and support the FOSS community
-          </p>
-        </div>
+        
       </div>
     </section>
   );

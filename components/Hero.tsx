@@ -15,7 +15,19 @@ export function Hero() {
 
   return (
     <div className="relative w-full h-[100svh] overflow-hidden bg-jwhite ">
-      {/* <Navbar /> */}
+      
+      {/* Become a sponsor - top right */}
+      <div className="absolute top-6 right-4 md:top-8 md:right-8 z-40">
+        <div className="relative inline-block">
+          <div className="absolute inset-0 bg-joranage rounded-lg transform rotate-2 translate-x-1 translate-y-1"></div>
+          <a href="/travel" className="relative inline-block focus:outline-none">
+            <button className="relative bg-jyellow hover:bg-jwhite text-black font-bold py-2 px-4 md:py-3 md:px-6 rounded-lg border-2 border-black transform hover:-translate-x-1 hover:-translate-y-1 transition-all duration-300 hover:shadow-lg">
+              <span className="text-sm md:text-lg  font-jfont">TRAVEL GUIDE</span>
+            </button>
+          </a>
+        </div>
+      </div>
+
       {/* Blurred Circle Background */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] md:w-[500px] md:h-[500px] lg:w-[600px] lg:h-[600px] rounded-full bg-joranage -mt-10 z-20"></div>
       {/* Prism Background only for hero section */}
@@ -32,6 +44,7 @@ export function Hero() {
             Register Now
           </span>
         </button></a>
+        
           <Skiper39 />
       </div>
     

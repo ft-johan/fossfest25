@@ -14,12 +14,7 @@ export default function Travel() {
         </header>
 
         <div className="space-y-8">
-          <div>
-            <h3 className="text-xl md:text-2xl font-semibold text-gray-900 mb-3">Event Schedule</h3>
-            <p className="text-sm md:text-base text-gray-700">
-              Please find the FOSS Fest &apos;25 Schedule <a href="./" className="text-jblue underline">here</a>.
-            </p>
-          </div>
+          
 
           <div>
             <h3 className="text-xl md:text-2xl font-semibold text-gray-900 mb-3">Communication</h3>
@@ -68,25 +63,14 @@ export default function Travel() {
             </div>
           </div>
 
-          <div>
-            <h3 className="text-xl md:text-2xl font-semibold text-gray-900 mb-3">What&apos;s happening at FOSS Fest ’25?</h3>
-            <ul className="list-disc pl-5 text-sm md:text-base text-gray-700 space-y-2">
-              <li>Talks: Sessions on FOSS projects, policy, community, sustainability, hardware and more.</li>
-              <li>Workshops: Hands-on learning sessions (tickets for workshops may be separate).</li>
-              <li>Devrooms: Mini-conference tracks curated by communities.</li>
-              <li>Panels & BOFs: Broad and niche group conversations.</li>
-              <li>Open Spaces & Demos: Project showcases, install parties, and hands-on booths.</li>
-              <li>Networking: Meet peers, swap stories, and brainstorm ideas.</li>
-            </ul>
-          </div>
+          
 
           <div>
             <h3 className="text-xl md:text-2xl font-semibold text-gray-900 mb-3">Tickets & Registration</h3>
             <ul className="list-disc pl-5 text-sm md:text-base text-gray-700 space-y-2">
               <li>Register through the official site: <a className="text-jblue underline" href="https://konfhub.com/foss-fest-25">https://konfhub.com/foss-fest-25</a></li>
-              <li>Tickets include access to sessions, devrooms, workshops (check workshop-specific ticketing), food and networking areas.</li>
+              <li>Tickets include access to sessions, workshops (check workshop-specific ticketing), food and networking areas.</li>
               <li>Entry usually begins at 8 AM — please plan your commute accordingly.</li>
-              <li>Refund & transfer policies vary — check event terms or contact <a className="text-jblue underline" href="mailto:indiafoss@fossunited.org">indiafoss@fossunited.org</a>.</li>
             </ul>
           </div>
         </div>

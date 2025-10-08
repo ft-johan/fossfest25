@@ -24,7 +24,7 @@ export default function Travel() {
           <div>
             <h3 className="text-xl md:text-2xl font-semibold text-gray-900 mb-3">Communication</h3>
             <p className="text-sm md:text-base text-gray-700">
-              Join the FOSS community channels for updates. Drop queries on the <a className="text-jblue underline" href="https://t.me/">telegram channel</a> or email us at <a className="text-jblue underline" href="mailto:indiafoss@fossunited.org">indiafoss@fossunited.org</a>.
+              Join the FOSS community channels for updates. Drop queries on  email 😊 <a className="text-jblue underline" href="mailto:fossfestcek@gmail.com">fossfestcek@gmail.com</a>.
             </p>
           </div>
 

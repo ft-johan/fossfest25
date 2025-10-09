@@ -82,29 +82,22 @@ const scheduleData: DaySchedule[] = [
             },
             
             {
-                time: "1:00 PM",
+                time: "2:00 PM",
                 title: "Zero to hero : Your First step in Javascript",
                 duration: "90 Min",
-                location: "Room 2",
+                location: "Room 1",
                 speaker: "Jithu Girish",
                 type: "workshop"
             },
                    {
-                time: "1:00 PM",
+                time: "2:00 PM",
                 title: "Game ON!: Build your first 2D game using Godot Engine",
                 duration: "90 Min",
-                location: "Room 1",
+                location: "Room 2",
                 speaker: "Mohammed Fahad",
                 type: "workshop"
             },
-            {
-                time: "01:00 PM",
-                title: "Open Source HUNT",
-                duration: "60 Min",
-                location: "College of Engineering Karunagapally",
-
-                type: "workshop"
-            },
+            
             {
                 time: "03:30 PM",
                 title: "Networking session + Treasure Hunt ",

@@ -41,7 +41,7 @@ export function Hero() {
         <a href="https://konfhub.com/foss-fest-25"> <button data-speed="1.4" className="relative inline-flex h-12 md:h-14 lg:h-16 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 w-full max-w-xs md:max-w-sm lg:max-w-md mx-auto">
           <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
           <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-jwhite px-4 py-2 md:px-6 md:py-2 lg:px-8 lg:py-3 text-base md:text-lg lg:text-xl font-jfont hover:animate-pulse text-jblue backdrop-blur-3xl">
-            Register Now
+            Registration Closed
           </span>
         </button></a>
         

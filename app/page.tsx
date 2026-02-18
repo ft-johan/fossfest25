@@ -12,6 +12,7 @@ import What from "@/components/what";
 import Schedule from "@/components/Schedule";
 import Sponsor from "@/components/Sponsor";
 import Travel from "@/app/travel/page";
+import { Team } from "@/components/Team";
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 export default function Home() {
   useGSAP(() => {
@@ -28,7 +29,8 @@ export default function Home() {
       <Hero />
       <What />
       <Info />
-      <Schedule />
+      <Team />
+      
       <Sponsor />
       <About />
       <Footer />

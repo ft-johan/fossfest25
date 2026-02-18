@@ -85,7 +85,7 @@ const teamData: TeamMember[] = [
     name: "Chinthak Divan",
     role: "Design Lead",
     specialty: "Visual Design",
-    image: "/team/Chintak.png",
+    image: "/team/Chintak1.png",
     bio: "Creating beautiful experiences with purpose",
     social: {
       twitter: "https://twitter.com",

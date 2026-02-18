@@ -10,7 +10,7 @@ export default function Info() {
 				<div className="flex flex-col items-center bg-joranage rounded-lg px-8 py-6">
 					<CountUp
 						from={0}
-						to={150}
+						to={250}
 						separator=","
 						direction="up"
 						duration={1}

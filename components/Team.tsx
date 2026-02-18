@@ -34,10 +34,10 @@ const teamData: TeamMember[] = [
     },
   },
   {
-    name: "Jane Smith",
+    name: "Mahitha D",
     role: "Events Coordinator",
     specialty: "Experience Design",
-    image: "/team/pic1.png",
+    image: "/team/MahithaD.png",
     bio: "Creating memorable experiences for developers",
     social: {
       twitter: "https://twitter.com",
@@ -46,10 +46,10 @@ const teamData: TeamMember[] = [
     },
   },
   {
-    name: "Alex Johnson",
+    name: "Abhiram DJ",
     role: "Content Lead",
     specialty: "Strategic Communications",
-    image: "/team/pic1.png",
+    image: "/team/AbhiramNJ.png",
     bio: "Storytelling through technology and innovation",
     social: {
       twitter: "https://twitter.com",
@@ -58,10 +58,10 @@ const teamData: TeamMember[] = [
     },
   },
   {
-    name: "Sarah Wilson",
+    name: "Johan George",
     role: "Community Manager",
     specialty: "Community Engagement",
-    image: "/team/pic1.png",
+    image: "/team/Johan.png",
     bio: "Building bridges between passionate developers",
     social: {
       twitter: "https://twitter.com",
@@ -70,10 +70,10 @@ const teamData: TeamMember[] = [
     },
   },
   {
-    name: "Mike Chen",
+    name: "Anand S",
     role: "Tech Lead",
     specialty: "Backend Architecture",
-    image: "/team/pic1.png",
+    image: "/team/AnandS.png",
     bio: "Backend architect and open source advocate",
     social: {
       twitter: "https://twitter.com",
@@ -82,10 +82,10 @@ const teamData: TeamMember[] = [
     },
   },
   {
-    name: "Emma Davis",
+    name: "Chinthak Divan",
     role: "Design Lead",
     specialty: "Visual Design",
-    image: "/team/pic1.png",
+    image: "/team/Chintak.png",
     bio: "Creating beautiful experiences with purpose",
     social: {
       twitter: "https://twitter.com",
@@ -94,7 +94,7 @@ const teamData: TeamMember[] = [
     },
   },
   {
-    name: "David Kumar",
+    name: "Rohit Thottumukkil",
     role: "Operations Lead",
     specialty: "Logistics & Planning",
     image: "/team/pic1.png",

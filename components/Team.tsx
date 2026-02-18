@@ -61,7 +61,7 @@ const teamData: TeamMember[] = [
     name: "Johan George",
     role: "Community Manager",
     specialty: "Community Engagement",
-    image: "/team/Johan.png",
+    image: "/team/JOHAN.png",
     bio: "Building bridges between passionate developers",
     social: {
       twitter: "https://twitter.com",

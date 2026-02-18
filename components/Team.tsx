@@ -373,7 +373,7 @@ export function Team() {
             Join Our Mission
           </h2>
           <p className="text-lg md:text-xl text-jwhite/90 mb-12 font-light leading-relaxed max-w-2xl mx-auto">
-            We're passionate about building an inclusive community. If you share our vision, we'd love to hear from you.
+            We&apos;re passionate about building an inclusive community. If you share our vision, we&apos;d love to hear from you.
           </p>
           <button className="relative inline-flex h-14 md:h-16 overflow-hidden rounded-full p-[2px] focus:outline-none focus:ring-2 focus:ring-jyellow focus:ring-offset-2 focus:ring-offset-jblue group">
             <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#FFAF58_0%,#EB4944_50%,#FFAF58_100%)] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
